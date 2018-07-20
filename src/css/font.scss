@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'xinghei';
+    
+    /*src: url('./font/Stardust Adventure.ttf');*/
+
+    src: url('../font/xinghei.eot'); /* IE9 Compat Modes */
+    src: url('../font/xinghei.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/xinghei.woff') format('woff'), /* Modern Browsers */
+         url('../font/xinghei.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../font/xinghei.svg#YourWebFontName') format('svg'); /* Legacy iOS */
+
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fangmeng';
+    
+    /*src: url('./font/Stardust Adventure.ttf');*/
+
+    src: url('../font/fangmeng.eot'); /* IE9 Compat Modes */
+    src: url('../font/fangmeng.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/fangmeng.woff') format('woff'), /* Modern Browsers */
+         url('../font/fangmeng.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../font/fangmeng.svg#YourWebFontName') format('svg'); /* Legacy iOS */
+
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0" />
+    <title>“财富”积累保平安</title>
+    <link rel="stylesheet" href="//prj.chuangjia.me/public/css/swiper-4.2.0.min.css">
+    <link rel="stylesheet" href="//prj.chuangjia.me/public/css/animate.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+	<script>
+        (function(document){
+            var layout = {
+                w: 750,
+                h: 1280,
+                c: 7.5
+            }
+            function setFontSize() {
+                var font_size_w = document.documentElement.clientWidth / layout.c,
+                    font_size_h = document.documentElement.clientHeight / (layout.h/(layout.w/layout.c)),
+                    font_size = Math.min(font_size_w, font_size_h);
+                    document.documentElement.style.fontSize = font_size + 'px'
+            }
+            setFontSize()
+            window.addEventListener('load', setFontSize)
+        })(document)
+    </script>
+</head>
+<body>
+     
+    <div class="loading">
+        <img src="./img/finger.png" alt="">
+        <p id="progress">0%</p>
+    </div>
+    
+    <div class="swiper-container" id="wrapper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide page2">
+                <img src="./img/arrow.png?1" class="arrow">
+            </div>
+        </div>
+    </div>
+
+    <!-- bgm --> 
+    <!-- 
+    <div id="bgm-btn">
+        <audio src="./media/music.mp3" id="music" preload loop></audio>
+    </div>
+     -->
+
+    <!-- 
+    <div style="display: none;">
+        <script src="http://s95.cnzz.com/z_stat.php?id=1261440272&web_id=1261440272" language="JavaScript"></script>
+    </div>
+     -->
+    
+    <script src="//res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="//prj.chuangjia.me/public/js/jquery.js"></script>
+    <script src="//prj.chuangjia.me/public/js/swiper-4.2.0.min.js"></script>
+    <script src="./js/app.js"></script>
+	
+</body>
+</html>
